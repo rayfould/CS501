@@ -1,4 +1,4 @@
-package com.example.q1_maps.ui.theme
+package com.example.q2_polygon.ui.theme
 
 import android.app.Activity
 import android.os.Build
@@ -34,7 +34,7 @@ private val LightColorScheme = lightColorScheme(
 )
 
 @Composable
-fun Q1MapsTheme(
+fun Q2PolygonTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
     dynamicColor: Boolean = true,

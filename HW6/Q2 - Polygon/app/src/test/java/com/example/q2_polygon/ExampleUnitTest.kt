@@ -1,4 +1,4 @@
-package com.example.q1_maps
+package com.example.q2_polygon
 
 import org.junit.Test
 

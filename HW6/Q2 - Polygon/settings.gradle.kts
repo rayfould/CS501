@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Q1 - Maps"
+rootProject.name = "Q2 - Polygon"
 include(":app")
+ 

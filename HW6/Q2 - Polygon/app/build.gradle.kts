@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.q1_maps"
+    namespace = "com.example.q2_polygon"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.q1_maps"
+        applicationId = "com.example.q2_polygon"
         minSdk = 24
         targetSdk = 35
         versionCode = 1
@@ -56,7 +56,6 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation (libs.play.services.maps)
-    implementation(libs.android.maps.compose)
-    implementation (libs.play.services.location)
+    implementation(libs.play.services.maps)
+    implementation(libs.play.services.location)
 }

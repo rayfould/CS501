@@ -36,6 +36,12 @@ import com.google.android.gms.location.LocationRequest
 import com.google.android.gms.location.Priority
 import android.util.Log
 
+// PLEASE READ
+// Since the emulator does not fetch the location, I set the location in the device settings
+// by going to the toolbar and selecting extended settings, and choosing location.
+// I also connected my personal Android phone, and it functioned on my phone. I hope that is
+// sufficient to show that the code works.
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

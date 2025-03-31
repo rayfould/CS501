@@ -1,4 +1,4 @@
-package com.example.q1_maps.ui.theme
+package com.example.q2_polygon.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
